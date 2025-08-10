@@ -12,12 +12,16 @@
 
   <!-- Button Section -->
   <div class="btn-container">
-    <a href="https://bday-wish-2ow8.onrender.com" target="_blank" class="my-btn">Wishes</a>
+    <a href="https://bday-wish-2ow8.onrender.com" class="my-btn" id="wishBtn">Wishes</a>
   </div>
 
   <script src="script.js"></script>
+  <script>
+    // ✅ Button click par link same tab me khulega
+    document.getElementById("wishBtn").addEventListener("click", function(e) {
+      e.preventDefault();
+      window.location.href = this.href;
+    });
+  </script>
 </body>
 </html>
-
-
-

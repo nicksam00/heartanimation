@@ -170,8 +170,7 @@ var ParticlePool = (function () {
       130 * Math.cos(t) -
         50 * Math.cos(2 * t) -
         20 * Math.cos(3 * t) -
-        10 * Math.cos(4 * t) +
-        25
+        10 * Math.cos(4 * t) + 25
     );
   }
 
